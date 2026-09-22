@@ -1,0 +1,22 @@
+# Student Information Program
+# This program stores and displays basic student information.
+
+# ii & iii. Create variables and assign suitable values
+student_name = "John Kamau"
+registration_number = "BCT/001/2026"
+course = "Bachelor of Computer Technology"
+year_of_study = 1
+
+# iv. Display all student information using the print() function
+print("Student Name:", student_name)
+print("Registration Number:", registration_number)
+print("Course:", course)
+print("Year of Study:", year_of_study)
+
+# v. Interactive mode allows Python commands to be entered
+# and executed one at a time, while script mode allows
+# a complete program to be saved and executed from a file.
+
+# vi. Script mode is more appropriate for a complete
+# student management application because it allows the
+# program to be saved, organized, modified, and reused.
