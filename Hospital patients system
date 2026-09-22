@@ -1,0 +1,33 @@
+
+# i & ii. Create variables and assign suitable values
+patient_name = "John Kamau"
+patient_id = "P001"
+patient_age = 35
+patient_gender = "Male"
+
+# iii. Display patient details using the print() function
+print("Patient Name:", patient_name)
+print("Patient ID:", patient_id)
+print("Age:", patient_age)
+print("Gender:", patient_gender)
+
+# iv. Display patient information using an f-string
+print(f"Patient Name: {patient_name}")
+print(f"Patient ID: {patient_id}")
+print(f"Age: {patient_age}")
+print(f"Gender: {patient_gender}")
+
+# v. Comments have been included above to explain
+# the major sections of the program.
+
+
+
+
+
+
+
+
+
+
+
+
