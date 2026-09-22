@@ -1,0 +1,20 @@
+# i & ii. Create variables and assign appropriate values
+business_name = "Ndulele Electronics"
+product_name = "Wireless Mouse"
+product_price = 1500
+quantity_purchased = 3
+
+# iii. Calculate the total purchase cost
+total_cost = product_price * quantity_purchased
+
+# iv. Display the business and purchase information
+print("Business Name:", business_name)
+print("Product Name:", product_name)
+print("Quantity Purchased:", quantity_purchased)
+print("Product Price:", product_price)
+print("Total Cost:", total_cost)
+
+# v. Characteristics of Python suitable for business applications:
+# 1. Python is simple and easy to read.
+# 2. Python can be used to automate repetitive tasks.
+# 3. Python has many libraries and frameworks for business applications.
