@@ -1,0 +1,24 @@
+# Supermarket Discount Program
+# This program calculates a 15% discount for purchases
+# of KSh 10,000 or more.
+
+# i & ii. Ask the customer to enter the purchase amount
+purchase_amount = float(input("Enter Total Purchase Amount: "))
+
+# iii. Check whether the customer qualifies for the discount
+if purchase_amount >= 10000:
+
+    # iv. Calculate the discount
+    discount = 0.15 * purchase_amount
+
+else:
+    discount = 0
+
+# v. Calculate the final amount
+final_amount = purchase_amount - discount
+
+# vi. Display the purchase information
+print("\nPurchase Information")
+print(f"Purchase Amount: KSh {purchase_amount:.2f}")
+print(f"Discount: KSh {discount:.2f}")
+print(f"Final Amount: KSh {final_amount:.2f}")
