@@ -1,0 +1,22 @@
+# Student Examination Results Program
+# This program calculates a student's total mark
+# and determines whether the student has passed.
+
+# i. Ask the user to enter student information
+student_name = input("Enter Student Name: ")
+coursework_mark = float(input("Enter Coursework Mark out of 30: "))
+examination_mark = float(input("Enter Examination Mark out of 70: "))
+
+# ii. Calculate the total mark
+total_mark = coursework_mark + examination_mark
+
+# iii. Determine whether the student has passed
+passed = total_mark >= 40
+
+# iv & v. Display the student's examination results
+print("\nStudent Examination Results")
+print(f"Student Name: {student_name}")
+print(f"Coursework Mark: {coursework_mark:.2f}")
+print(f"Examination Mark: {examination_mark:.2f}")
+print(f"Total Mark: {total_mark:.2f}")
+print(f"Passed: {passed}")
