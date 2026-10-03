@@ -1,0 +1,26 @@
+# Employee Status Program
+"""
+This program stores and displays basic employee information.
+It also records whether the employee is currently active
+and demonstrates how to convert a number into a string.
+"""
+
+# i & ii. Create variables and assign suitable values
+employee_name = "John Kamau"
+employee_age = 25
+employee_salary = 45000.00
+employee_active = True
+
+# iii. Employee active status is stored as a Boolean value
+# True means the employee is active, while False means inactive.
+
+# iv. Display employee information using f-string formatting
+print("Employee Information")
+print(f"Employee Name: {employee_name}")
+print(f"Employee Age: {employee_age}")
+print(f"Employee Salary: {employee_salary:.2f}")
+print(f"Employee Active: {employee_active}")
+
+# v. Convert a number to a string using str() before concatenating
+employee_age_text = "Employee age is " + str(employee_age)
+print(employee_age_text)
