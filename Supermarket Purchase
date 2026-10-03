@@ -1,0 +1,19 @@
+# Supermarket Purchase Program
+# This program calculates the total cost of products purchased by a customer.
+
+# i & ii. Ask the customer to enter purchase information
+customer_name = input("Enter Customer Name: ")
+product_name = input("Enter Product Name: ")
+quantity = int(input("Enter Quantity Purchased: "))
+price = float(input("Enter Price per Item: "))
+
+# iii. Calculate the total cost
+total_cost = quantity * price
+
+# iv & v. Display purchase information using an f-string
+print("\nPurchase Information")
+print(f"Customer Name: {customer_name}")
+print(f"Product Name: {product_name}")
+print(f"Quantity: {quantity}")
+print(f"Price per Item: {price:.3f}")
+print(f"Total Cost: {total_cost:.3f}")
