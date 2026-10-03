@@ -1,0 +1,26 @@
+# Employee Salary Calculation Program
+# This program calculates an employee's housing allowance,
+# gross salary and net salary.
+
+# i & ii. Ask the user to enter employee information
+employee_name = input("Enter Employee Name: ")
+basic_salary = float(input("Enter Basic Salary: "))
+monthly_deduction = float(input("Enter Monthly Deduction: "))
+
+# iii. Calculate the housing allowance
+housing_allowance = 0.10 * basic_salary
+
+# iv. Calculate the gross salary
+gross_salary = basic_salary + housing_allowance
+
+# v. Calculate the net salary
+net_salary = gross_salary - monthly_deduction
+
+# vi. Display employee salary information
+print("\nEmployee Salary Information")
+print(f"Employee Name: {employee_name}")
+print(f"Basic Salary: {basic_salary:.2f}")
+print(f"Housing Allowance: {housing_allowance:.2f}")
+print(f"Gross Salary: {gross_salary:.2f}")
+print(f"Monthly Deduction: {monthly_deduction:.2f}")
+print(f"Net Salary: {net_salary:.2f}")
