@@ -1,0 +1,23 @@
+
+
+# i. Create a tuple named customer containing details
+customer = ("Grace Wamae", "CUST101", "0712345678", "grace@example.com")
+
+# ii. Display the complete tuple
+print("Customer Details:", customer)
+
+# iii. Access and display the customer's name and telephone number using indexes
+print("Customer Name:", customer[0])
+print("Telephone Number:", customer[2])
+
+# iv. Display the number of items in the tuple using len()
+print("Number of items in tuple:", len(customer))
+
+# v. Attempt to modify the customer's telephone number
+try:
+    customer[2] = "0799999999"   # This will cause an error
+except TypeError as e:
+    print("Error:", e)
+
+# vi. Explanation
+print("Tuples are immutable, meaning their values cannot be changed once created.")
