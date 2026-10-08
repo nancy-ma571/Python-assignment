@@ -1,0 +1,15 @@
+categories = {"Electronics", "Clothing", "Books", "Toys", "Clothing", "Groceries"}
+
+print("Initial Categories:", categories)
+
+categories.add("Furniture")
+print("After Adding Furniture:", categories)
+
+categories.remove("Toys")
+print("After Removing Toys:", categories)
+
+print("Final Categories:", categories)
+
+print("Using a set ensures all product categories remain unique, "
+      "because sets automatically remove duplicates. "
+      "This helps the company avoid repetition and maintain clean records.")
