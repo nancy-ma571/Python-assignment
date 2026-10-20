@@ -1,0 +1,14 @@
+balance = 50000
+
+amount = int(input("Enter withdrawal amount: "))
+
+if amount <= 0:
+    print("Error: Withdrawal amount must be greater than zero.")
+elif amount > balance:
+    print("Error: Withdrawal amount exceeds account balance.")
+elif amount % 500 != 0:
+    print("Error: Withdrawal amount must be a multiple of 500.")
+else:
+    balance -= amount
+    print("Withdrawal successful!")
+    print("Remaining balance:", balance)
