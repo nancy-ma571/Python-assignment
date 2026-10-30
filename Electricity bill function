@@ -1,0 +1,14 @@
+# Function to calculate electricity bill
+def calculate_bill(units_consumed, cost_per_unit):
+    bill = units_consumed * cost_per_unit
+    return bill
+
+# Ask user for input
+units = float(input("Enter units consumed: "))
+cost = float(input("Enter cost per unit: "))
+
+# Call the function
+electricity_bill = calculate_bill(units, cost)
+
+# Display the result
+print("Electricity Bill =", electricity_bill)
