@@ -1,0 +1,21 @@
+# Create a dictionary to store student information
+student = {
+    "Registration Number": "BSCIT/001/2026",
+    "Student Name": "Nancy Wamae",
+    "Course": "Bachelor of Science in Information Technology",
+    "Year of Study": 1
+}
+
+# Display student's name and course
+print("Student Name:", student["Student Name"])
+print("Course:", student["Course"])
+
+# Change the student's year of study
+student["Year of Study"] = 2
+
+# Add an email address to the dictionary
+student["Email"] = "nancy@example.com"
+
+# Display the complete updated dictionary
+print("\nUpdated Student Record:")
+print(student)
