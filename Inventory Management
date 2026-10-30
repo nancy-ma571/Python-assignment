@@ -1,0 +1,24 @@
+# Create a dictionary containing products and their quantities
+inventory = {
+    "Milk": 50,
+    "Bread": 30,
+    "Sugar": 20,
+    "Rice": 40,
+    "Soap": 25
+}
+
+# Display the quantity of a specified product
+print("Quantity of Rice:", inventory["Rice"])
+
+# Add a new product
+inventory["Cooking Oil"] = 15
+
+# Update the quantity of an existing product
+inventory["Bread"] = 45
+
+# Remove one product
+del inventory["Soap"]
+
+# Display the final inventory
+print("\nFinal Inventory:")
+print(inventory)
